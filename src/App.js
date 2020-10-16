@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Gelloasdfasdfasd
+          Hey Palmeasy
         </a>
       </header>
     </div>
