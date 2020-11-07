@@ -109,11 +109,9 @@ html {
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
-  background-image: url(../img/tokyo.jpg);
-  height: 100%;
   margin: 0;
-}
-.bg-tokyo {
+  /* Center and scale the image nicely */
+  background-image: url(../img/tokyo.jpg);
   /* Full height */
   height: 100%;
 
@@ -122,6 +120,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 h1,
 h2,
 h3,
@@ -5931,16 +5930,4 @@ del {
 }
 .switch-wrap {
   margin-bottom: 10px;
-}
-
-.bg-tokyo {
-  background-image: url(../img/tokyo.jpg);
-  background: blue;
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
