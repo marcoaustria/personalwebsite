@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.54dc56a0.chunk.css",
-    "main.js": "/static/js/main.5c50c136.chunk.js",
-    "main.js.map": "/static/js/main.5c50c136.chunk.js.map",
+    "main.js": "/static/js/main.1654199e.chunk.js",
+    "main.js.map": "/static/js/main.1654199e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
     "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
     "static/css/2.8d3f7698.chunk.css": "/static/css/2.8d3f7698.chunk.css",
-    "static/js/2.337867b7.chunk.js": "/static/js/2.337867b7.chunk.js",
-    "static/js/2.337867b7.chunk.js.map": "/static/js/2.337867b7.chunk.js.map",
+    "static/js/2.8440e03b.chunk.js": "/static/js/2.8440e03b.chunk.js",
+    "static/js/2.8440e03b.chunk.js.map": "/static/js/2.8440e03b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4c38f4715e6bb6ff85ba72d4af0ad9f6.js": "/precache-manifest.4c38f4715e6bb6ff85ba72d4af0ad9f6.js",
+    "precache-manifest.dcd754ce92e79e7ce745540b26d7dc99.js": "/precache-manifest.dcd754ce92e79e7ce745540b26d7dc99.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8d3f7698.chunk.css.map": "/static/css/2.8d3f7698.chunk.css.map",
     "static/css/main.54dc56a0.chunk.css.map": "/static/css/main.54dc56a0.chunk.css.map",
-    "static/js/2.337867b7.chunk.js.LICENSE.txt": "/static/js/2.337867b7.chunk.js.LICENSE.txt",
+    "static/js/2.8440e03b.chunk.js.LICENSE.txt": "/static/js/2.8440e03b.chunk.js.LICENSE.txt",
     "static/media/doge.jpg": "/static/media/doge.94d84ca6.jpg",
     "static/media/ferrisbueller.jpg": "/static/media/ferrisbueller.59f28fd7.jpg",
     "static/media/gilberto.jpg": "/static/media/gilberto.da564402.jpg",
@@ -21,16 +21,19 @@
     "static/media/lalaland.jpg": "/static/media/lalaland.feaff9f4.jpg",
     "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
     "static/media/logo.png": "/static/media/logo.80b1edde.png",
+    "static/media/office.jpeg": "/static/media/office.2f430803.jpeg",
+    "static/media/pikachu.jpg": "/static/media/pikachu.cfd4cd42.jpg",
     "static/media/planewing.jpg": "/static/media/planewing.5bdfe6f5.jpg",
     "static/media/rooftop.jpg": "/static/media/rooftop.3006f259.jpg",
     "static/media/style.css": "/static/media/tokyo.8b747204.jpg",
+    "static/media/uf.jpg": "/static/media/uf.f691ab1a.jpg",
     "static/media/wonderfullife.jpg": "/static/media/wonderfullife.0711e7ba.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ce89729d.js",
     "static/css/2.8d3f7698.chunk.css",
-    "static/js/2.337867b7.chunk.js",
+    "static/js/2.8440e03b.chunk.js",
     "static/css/main.54dc56a0.chunk.css",
-    "static/js/main.5c50c136.chunk.js"
+    "static/js/main.1654199e.chunk.js"
   ]
 }
