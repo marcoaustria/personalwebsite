@@ -16,7 +16,6 @@ import Homepage from "./components/Homepage"
 function App() {
   return (
     <div className="App">
-        <Homepage/>
        <Router>
           <Switch>
               <Route exact path='/' component={Homepage} />

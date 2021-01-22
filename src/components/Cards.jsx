@@ -1,124 +1,141 @@
 import React, { Fragment } from "react";
+import { Card, CardColumns } from "react-bootstrap";
+
 import logo from "../logo.svg";
 import "../assets/css/style.css";
 
-export const Homepage = () => {
+export const Cards = () => {
   return (
     <React.Fragment>
-      <body>
-        <div className="row">
-          <div className="col">
-            <div class="card-columns">
-              <div class="card">
-                <img
-                  class="card-img-top img-fluid"
-                  src="..."
-                  alt="Card image cap"
-                />
-                <div class="card-block">
-                  <h4 class="card-title">
-                    Card title that wraps to a new line
-                  </h4>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
-                </div>
-              </div>
-              <div class="card p-3">
-                <blockquote class="card-block card-blockquote">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer posuere erat a ante.
-                  </p>
-                  <footer>
-                    <small class="text-muted">
-                      Someone famous in{" "}
-                      <cite title="Source Title">Source Title</cite>
-                    </small>
-                  </footer>
-                </blockquote>
-              </div>
-              <div class="card">
-                <img
-                  class="card-img-top img-fluid"
-                  src="..."
-                  alt="Card image cap"
-                />
-                <div class="card-block">
-                  <h4 class="card-title">Card title</h4>
-                  <p class="card-text">
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </p>
-                </div>
-              </div>
-              <div class="card card-inverse card-primary p-3 text-center">
-                <blockquote class="card-blockquote">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer posuere erat.
-                  </p>
-                  <footer>
-                    <small>
-                      Someone famous in{" "}
-                      <cite title="Source Title">Source Title</cite>
-                    </small>
-                  </footer>
-                </blockquote>
-              </div>
-              <div class="card text-center">
-                <div class="card-block">
-                  <h4 class="card-title">Card title</h4>
-                  <p class="card-text">
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <img class="card-img img-fluid" src="..." alt="Card image" />
-              </div>
-              <div class="card p-3 text-right">
-                <blockquote class="card-blockquote">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer posuere erat a ante.
-                  </p>
-                  <footer>
-                    <small class="text-muted">
-                      Someone famous in{" "}
-                      <cite title="Source Title">Source Title</cite>
-                    </small>
-                  </footer>
-                </blockquote>
-              </div>
-              <div class="card">
-                <div class="card-block">
-                  <h4 class="card-title">Card title</h4>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
-                  </p>
-                  <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </body>
+      <CardColumns>
+        <Card className="p-3">
+          <blockquote className="blockquote mb-0 card-body">
+            <p> Is there love in the telematic embrace?</p>
+            <footer className="blockquote-footer">
+              <small className="text-muted">
+                <cite title="Source Title">Roy Ascott</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </Card>
+        <Card className="p-3">
+          <blockquote className="blockquote mb-0 card-body">
+            <p>Beautiful things don't ask for attention.</p>
+            <footer className="blockquote-footer">
+              <small className="text-muted">
+                <cite title="Source Title">
+                  The Secret Life of Walter Mitty
+                </cite>
+              </small>
+            </footer>
+          </blockquote>
+        </Card>
+        <Card>
+          <Card.Img variant="top" src={require("../assets/img/lalaland.jpg")} />
+        </Card>
+        <Card>
+          <Card.Img variant="top" src={require("../assets/img/office.jpeg")} />
+        </Card>
+        <Card>
+          <Card.Img variant="top" src={require("../assets/img/uf.jpg")} />
+        </Card>
+        <Card>
+          <Card.Img
+            variant="top"
+            src={require("../assets/img/ferrisbueller.jpg")}
+          />
+        </Card>
+        <Card>
+          <Card.Img variant="top" src={require("../assets/img/rooftop.jpg")} />
+        </Card>
+        <Card>
+          <Card.Img variant="top" src={require("../assets/img/doge.jpg")} />
+        </Card>
+        <Card>
+          <Card.Img
+            variant="top"
+            src={require("../assets/img/wonderfullife.jpg")}
+          />
+        </Card>
+        <Card>
+          <Card.Img variant="top" src={require("../assets/img/gilberto.jpg")} />
+        </Card>
+        <Card>
+          <Card.Img variant="top" src={require("../assets/img/jobim.jpg")} />
+        </Card>
+        <Card>
+          <Card.Img
+            variant="top"
+            src={require("../assets/img/planewing.jpg")}
+          />
+        </Card>
+        <Card>
+          <Card.Img variant="top" src={require("../assets/img/pikachu.jpg")} />
+        </Card>
+        <Card bg="primary" text="white" className="text-center p-3">
+          <blockquote className="blockquote mb-0 card-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              posuere erat a ante.
+            </p>
+            <footer className="blockquote-footer">
+              <small className="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </Card>
+        <Card className="text-center">
+          <Card.Body>
+            <Card.Title>Card title</Card.Title>
+            <Card.Text>
+              This card has supporting text below as a natural lead-in to
+              additional content.{" "}
+            </Card.Text>
+            <Card.Text>
+              <small className="text-muted">Last updated 3 mins ago</small>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card>
+          <iframe
+            src="https://open.spotify.com/embed/playlist/3Co09fEKXIqDkDrL5P5YLB"
+            width="400"
+            height="380"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+        </Card>
+        <Card className="text-right">
+          <blockquote className="blockquote mb-0 card-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              posuere erat a ante.
+            </p>
+            <footer className="blockquote-footer">
+              <small className="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </Card>
+        <Card>
+          <Card.Body>
+            <Card.Title>Card title</Card.Title>
+            <Card.Text>
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </Card.Text>
+            <Card.Text>
+              <small className="text-muted">Last updated 3 mins ago</small>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </CardColumns>
     </React.Fragment>
   );
 };
 
-export default Homepage;
+export default Cards;
