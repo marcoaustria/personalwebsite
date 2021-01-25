@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { useState, Fragment } from "react";
 import {
   Navbar,
   Nav,
@@ -7,13 +7,18 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
-import "../assets/css/style.css";
+// import "../assets/css/style.css";
 
 export const NavbarComp = () => {
+  const [color, setColor] = useState("");
+  const navColorChange = (event) => {
+    setColor(event.target.value);
+  };
+
   return (
     <>
-      <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">
+      <Navbar bg="light" variant="light" sticky="top">
+        <Navbar.Brand href="/">
           <img
             alt=""
             src={require("../assets/img/logo/logo.png")}
@@ -22,28 +27,40 @@ export const NavbarComp = () => {
             className="d-inline-block align-top"
           />{" "}
         </Navbar.Brand>
-        <h2>Marco Austria</h2>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="#home">
-              {" "}
-              <a href="https://ufl.zoom.us/j/2492570197" className="btn">
-                Zoom
-              </a>
-            </Nav.Link>
 
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+        <Navbar.Text>
+          <h2
+            className="mb-0"
+            style={{ color: "#331391", fontFamily: "Raleway, sans-serif" }}
+          >
+            Marco Austria
+          </h2>
+        </Navbar.Text>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
+        <Navbar.Collapse className="justify-content-end">
+          <Nav>
+            <Nav.Link>
+              <a href="https://ufl.zoom.us/j/2492570197">Zoom</a>
+            </Nav.Link>
+            <Nav.Link
+              href="/"
+              style={color === "home" ? { color: "green" } : { color: "black" }}
+              value="home"
+              onClick={navColorChange}
+            >
+              hello{" "}
+            </Nav.Link>
+            <Nav.Link
+              href="/typography"
+              style={
+                color == "typography" ? { color: "green" } : { color: "black" }
+              }
+              value="typography"
+              onClick={navColorChange}
+            >
+              Typography
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

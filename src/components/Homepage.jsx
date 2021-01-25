@@ -8,7 +8,7 @@ export const Homepage = () => {
     <Fragment>
       <NavbarComp />
 
-      <div className="row align-items-center">
+      <div className="row align-items-center m-3 border-0">
         <div className="col">
           <Cards />
         </div>
