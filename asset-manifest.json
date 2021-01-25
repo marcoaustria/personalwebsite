@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.30a2ffc8.chunk.css",
-    "main.js": "/static/js/main.c540780d.chunk.js",
-    "main.js.map": "/static/js/main.c540780d.chunk.js.map",
+    "main.css": "/static/css/main.6bc72199.chunk.css",
+    "main.js": "/static/js/main.a6f3fdb2.chunk.js",
+    "main.js.map": "/static/js/main.a6f3fdb2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
     "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
     "static/css/2.8d3f7698.chunk.css": "/static/css/2.8d3f7698.chunk.css",
-    "static/js/2.8440e03b.chunk.js": "/static/js/2.8440e03b.chunk.js",
-    "static/js/2.8440e03b.chunk.js.map": "/static/js/2.8440e03b.chunk.js.map",
+    "static/js/2.7cb37b55.chunk.js": "/static/js/2.7cb37b55.chunk.js",
+    "static/js/2.7cb37b55.chunk.js.map": "/static/js/2.7cb37b55.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.93466ba85b2df6b53b6121900e47fbfc.js": "/precache-manifest.93466ba85b2df6b53b6121900e47fbfc.js",
+    "precache-manifest.4ebfe300c52c588a22267e9506381cef.js": "/precache-manifest.4ebfe300c52c588a22267e9506381cef.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8d3f7698.chunk.css.map": "/static/css/2.8d3f7698.chunk.css.map",
-    "static/css/main.30a2ffc8.chunk.css.map": "/static/css/main.30a2ffc8.chunk.css.map",
-    "static/js/2.8440e03b.chunk.js.LICENSE.txt": "/static/js/2.8440e03b.chunk.js.LICENSE.txt",
+    "static/css/main.6bc72199.chunk.css.map": "/static/css/main.6bc72199.chunk.css.map",
+    "static/js/2.7cb37b55.chunk.js.LICENSE.txt": "/static/js/2.7cb37b55.chunk.js.LICENSE.txt",
     "static/media/doge.jpg": "/static/media/doge.94d84ca6.jpg",
     "static/media/ferrisbueller.jpg": "/static/media/ferrisbueller.59f28fd7.jpg",
     "static/media/gilberto.jpg": "/static/media/gilberto.da564402.jpg",
@@ -25,14 +25,15 @@
     "static/media/pikachu.jpg": "/static/media/pikachu.cfd4cd42.jpg",
     "static/media/planewing.jpg": "/static/media/planewing.5bdfe6f5.jpg",
     "static/media/rooftop.jpg": "/static/media/rooftop.3006f259.jpg",
+    "static/media/supra.gif": "/static/media/supra.fd9280e9.gif",
     "static/media/uf.jpg": "/static/media/uf.f691ab1a.jpg",
     "static/media/wonderfullife.jpg": "/static/media/wonderfullife.0711e7ba.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ce89729d.js",
     "static/css/2.8d3f7698.chunk.css",
-    "static/js/2.8440e03b.chunk.js",
-    "static/css/main.30a2ffc8.chunk.css",
-    "static/js/main.c540780d.chunk.js"
+    "static/js/2.7cb37b55.chunk.js",
+    "static/css/main.6bc72199.chunk.css",
+    "static/js/main.a6f3fdb2.chunk.js"
   ]
 }
