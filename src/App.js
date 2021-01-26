@@ -13,10 +13,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Homepage from "./components/Homepage"
 
+import NavbarComp from "./components/NavbarComp";
 
 function App() {
   return (
     <div className="App">
+            <NavbarComp />
+
        <Router>
           <Switch>
               <Route exact path='/' component={Homepage} />

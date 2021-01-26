@@ -7,14 +7,9 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
-// import "../assets/css/style.css";
+import { Link } from "react-router-dom";
 
 export const NavbarComp = () => {
-  const [color, setColor] = useState("");
-  const navColorChange = (event) => {
-    setColor(event.target.value);
-  };
-
   return (
     <>
       <Navbar bg="light" variant="light" sticky="top">
@@ -40,24 +35,24 @@ export const NavbarComp = () => {
 
         <Navbar.Collapse className="justify-content-end">
           <Nav>
-            <Nav.Link>
+            <Nav.Link href="https://ufl.zoom.us/j/2492570197">
               <a href="https://ufl.zoom.us/j/2492570197">Zoom</a>
             </Nav.Link>
             <Nav.Link
               href="/"
-              style={color === "home" ? { color: "green" } : { color: "black" }}
-              value="home"
-              onClick={navColorChange}
+              style={
+                window.location.pathname === "/" ? { color: "#331391" } : {}
+              }
             >
-              hello{" "}
+              hello
             </Nav.Link>
             <Nav.Link
               href="/typography"
               style={
-                color == "typography" ? { color: "green" } : { color: "black" }
+                window.location.pathname === "/typography"
+                  ? { color: "#331391" }
+                  : {}
               }
-              value="typography"
-              onClick={navColorChange}
             >
               Typography
             </Nav.Link>

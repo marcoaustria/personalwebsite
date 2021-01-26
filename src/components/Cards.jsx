@@ -1,9 +1,6 @@
 import React, { Fragment } from "react";
 import { Card, CardColumns } from "react-bootstrap";
 
-import logo from "../logo.svg";
-// import "../assets/css/style.css";
-
 export const Cards = () => {
   return (
     <React.Fragment>
@@ -43,6 +40,9 @@ export const Cards = () => {
         </Card>
         <Card>
           <Card.Img variant="top" src={require("../assets/img/doge.jpg")} />
+        </Card>
+        <Card>
+          <Card.Img variant="top" src={require("../assets/img/jobs.jpg")} />
         </Card>
         <Card>
           <Card.Img
