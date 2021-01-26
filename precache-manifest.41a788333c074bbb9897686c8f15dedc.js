@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2761f1629036bf6aaa114539ea5d9223",
+    "revision": "29afaced8a87939df896ac14d9cca610",
     "url": "/index.html"
   },
   {
-    "revision": "d21abe51dc8c3e67b45b",
+    "revision": "d899a91c789f08240e35",
     "url": "/static/css/2.8d3f7698.chunk.css"
   },
   {
-    "revision": "144da233f04e1ee545cc",
-    "url": "/static/css/main.06b9080a.chunk.css"
+    "revision": "46955317ccd0e911c507",
+    "url": "/static/css/main.cc4b2507.chunk.css"
   },
   {
-    "revision": "d21abe51dc8c3e67b45b",
-    "url": "/static/js/2.6f423238.chunk.js"
+    "revision": "d899a91c789f08240e35",
+    "url": "/static/js/2.0413c83f.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/static/js/2.6f423238.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0413c83f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "144da233f04e1ee545cc",
-    "url": "/static/js/main.7d0112e8.chunk.js"
+    "revision": "46955317ccd0e911c507",
+    "url": "/static/js/main.0ee2b0ad.chunk.js"
   },
   {
     "revision": "f139b624154a37532bb8",
@@ -44,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/jobim.44155e05.jpg"
   },
   {
-    "revision": "feaff9f416144cd9f3b89dc57359ff6f",
-    "url": "/static/media/lalaland.feaff9f4.jpg"
+    "revision": "da21be4f5eab09842e8c3b9e8eac9c9d",
+    "url": "/static/media/jobs.da21be4f.jpg"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/static/media/logo.5d5d9eef.svg"
+    "revision": "feaff9f416144cd9f3b89dc57359ff6f",
+    "url": "/static/media/lalaland.feaff9f4.jpg"
   },
   {
     "revision": "80b1edde4682ce295e3c0a56518fae51",
