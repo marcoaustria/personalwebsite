@@ -1,0 +1,25 @@
+h1 {
+  transition: all 0.6s ease-out;
+
+  margin-top: -5px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+h1:hover {
+  transform: translate(2px, 0);
+}
+#logo {
+  color: #331391;
+}
+a:hover {
+  text-decoration: none;
+}
+#navbar {
+  font-family: "Montserrat", sans-serif;
+
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 25px;
+  background: linear-gradient(185deg, #ffffff, #e6e6e6);
+  box-shadow: 9px 9px 19px #a1a1a1, -9px -9px 19px #ffffff;
+}

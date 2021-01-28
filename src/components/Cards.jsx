@@ -1,10 +1,11 @@
 import React, { Fragment } from "react";
 import { Card, CardColumns } from "react-bootstrap";
+import "../styles/Cards.css";
 
 export const Cards = () => {
   return (
     <React.Fragment>
-      <CardColumns>
+      <CardColumns style={{ padding: "20px" }}>
         <Card className="p-3">
           <blockquote className="blockquote mb-0 card-body">
             <p>Beautiful things don't ask for attention.</p>
@@ -18,49 +19,46 @@ export const Cards = () => {
           </blockquote>
         </Card>
         <Card>
-          <Card.Img variant="top" src={require("../assets/img/lalaland.jpg")} />
+          <Card.Img src={require("../assets/img/lalaland.jpg")} />
         </Card>
         <Card>
-          <Card.Img variant="top" src={require("../assets/img/office.jpeg")} />
+          <Card.Img src={require("../assets/img/office.jpeg")} />
         </Card>
         <Card>
-          <Card.Img variant="top" src={require("../assets/img/uf.jpg")} />
+          <Card.Img src={require("../assets/img/uf.jpg")} />
         </Card>
         <Card>
-          <Card.Img variant="top" src={require("../assets/img/supra.gif")} />
+          <Card.Img src={require("../assets/img/supra.gif")} />
         </Card>
         <Card>
-          <Card.Img
-            variant="top"
-            src={require("../assets/img/ferrisbueller.jpg")}
-          />
+          <Card.Img src={require("../assets/img/ferrisbueller.jpg")} />
         </Card>
         <Card>
-          <Card.Img variant="top" src={require("../assets/img/rooftop.jpg")} />
+          <Card.Img src={require("../assets/img/rooftop.jpg")} />
         </Card>
         <Card>
-          <Card.Img variant="top" src={require("../assets/img/doge.jpg")} />
+          <Card.Img src={require("../assets/img/doge.jpg")} />
         </Card>
         <Card>
-          <Card.Img variant="top" src={require("../assets/img/jobs.jpg")} />
+          <Card.Img src={require("../assets/img/jobs.jpg")} />
         </Card>
         <Card>
-          <Card.Img
-            variant="top"
-            src={require("../assets/img/wonderfullife.jpg")}
-          />
+          <Card.Img src={require("../assets/img/wonderfullife.jpg")} />
         </Card>
         <Card>
-          <Card.Img variant="top" src={require("../assets/img/gilberto.jpg")} />
+          <Card.Img src={require("../assets/img/gilberto.jpg")} />
         </Card>
         <Card>
-          <Card.Img variant="top" src={require("../assets/img/jobim.jpg")} />
+          <Card.Img src={require("../assets/img/jobim.jpg")} />
         </Card>
         <Card>
           <Card.Img
-            variant="top"
-            src={require("../assets/img/planewing.jpg")}
+            style={{ width: "50%", marginLeft: "auto", marginRight: "auto" }}
+            src={require("../assets/img/speedracer.jpg")}
           />
+        </Card>
+        <Card>
+          <Card.Img src={require("../assets/img/planewing.jpg")} />
         </Card>
         <Card className="p-3">
           <blockquote className="blockquote mb-0 card-body">
@@ -73,21 +71,12 @@ export const Cards = () => {
           </blockquote>
         </Card>
         <Card>
-          <Card.Img variant="top" src={require("../assets/img/pikachu.jpg")} />
+          <Card.Img
+            style={{ width: "50%", marginLeft: "auto", marginRight: "auto" }}
+            src={require("../assets/img/pikachu.jpg")}
+          />
         </Card>
 
-        <Card className="text-center">
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
-            </Card.Text>
-            <Card.Text>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Text>
-          </Card.Body>
-        </Card>
         <Card>
           <div className="row align-items-center">
             <div className="col">
@@ -104,13 +93,14 @@ export const Cards = () => {
         </Card>
         <Card className="text-right">
           <blockquote className="blockquote mb-0 card-body">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              posuere erat a ante.
+            <p style={{ textAlign: "start" }}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
+
             <footer className="blockquote-footer">
               <small className="text-muted">
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                <cite title="Source Title">meta</cite>
               </small>
             </footer>
           </blockquote>
