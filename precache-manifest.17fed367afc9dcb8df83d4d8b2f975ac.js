@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a865e97232f5ce7e4277b98f40a6a582",
+    "revision": "3c4d2ff4b49b45034437708cb3e46b32",
     "url": "/index.html"
   },
   {
-    "revision": "9c87995ca85429c1d549",
+    "revision": "1f8fd8bbe8b0be0ad888",
     "url": "/static/css/2.8d3f7698.chunk.css"
   },
   {
-    "revision": "9a8adb68806ce541f8d5",
-    "url": "/static/css/main.5b9ace0d.chunk.css"
+    "revision": "4ffee6d2be4600304f92",
+    "url": "/static/css/main.e55d5cb0.chunk.css"
   },
   {
-    "revision": "9c87995ca85429c1d549",
-    "url": "/static/js/2.a9f03a13.chunk.js"
+    "revision": "1f8fd8bbe8b0be0ad888",
+    "url": "/static/js/2.9700b3ed.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/static/js/2.a9f03a13.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.9700b3ed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9a8adb68806ce541f8d5",
-    "url": "/static/js/main.9cdd3bd1.chunk.js"
+    "revision": "4ffee6d2be4600304f92",
+    "url": "/static/js/main.ec6f5099.chunk.js"
   },
   {
     "revision": "f139b624154a37532bb8",
@@ -50,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "feaff9f416144cd9f3b89dc57359ff6f",
     "url": "/static/media/lalaland.feaff9f4.jpg"
-  },
-  {
-    "revision": "80b1edde4682ce295e3c0a56518fae51",
-    "url": "/static/media/logo.80b1edde.png"
   },
   {
     "revision": "2f43080374dff78230ce99009a41d5dd",

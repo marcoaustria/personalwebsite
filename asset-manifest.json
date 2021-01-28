@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b9ace0d.chunk.css",
-    "main.js": "/static/js/main.9cdd3bd1.chunk.js",
-    "main.js.map": "/static/js/main.9cdd3bd1.chunk.js.map",
+    "main.css": "/static/css/main.e55d5cb0.chunk.css",
+    "main.js": "/static/js/main.ec6f5099.chunk.js",
+    "main.js.map": "/static/js/main.ec6f5099.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
     "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
     "static/css/2.8d3f7698.chunk.css": "/static/css/2.8d3f7698.chunk.css",
-    "static/js/2.a9f03a13.chunk.js": "/static/js/2.a9f03a13.chunk.js",
-    "static/js/2.a9f03a13.chunk.js.map": "/static/js/2.a9f03a13.chunk.js.map",
+    "static/js/2.9700b3ed.chunk.js": "/static/js/2.9700b3ed.chunk.js",
+    "static/js/2.9700b3ed.chunk.js.map": "/static/js/2.9700b3ed.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0556ad99105e3213dacb9a592b70525c.js": "/precache-manifest.0556ad99105e3213dacb9a592b70525c.js",
+    "precache-manifest.17fed367afc9dcb8df83d4d8b2f975ac.js": "/precache-manifest.17fed367afc9dcb8df83d4d8b2f975ac.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8d3f7698.chunk.css.map": "/static/css/2.8d3f7698.chunk.css.map",
-    "static/css/main.5b9ace0d.chunk.css.map": "/static/css/main.5b9ace0d.chunk.css.map",
-    "static/js/2.a9f03a13.chunk.js.LICENSE.txt": "/static/js/2.a9f03a13.chunk.js.LICENSE.txt",
+    "static/css/main.e55d5cb0.chunk.css.map": "/static/css/main.e55d5cb0.chunk.css.map",
+    "static/js/2.9700b3ed.chunk.js.LICENSE.txt": "/static/js/2.9700b3ed.chunk.js.LICENSE.txt",
     "static/media/doge.jpg": "/static/media/doge.94d84ca6.jpg",
     "static/media/ferrisbueller.jpg": "/static/media/ferrisbueller.59f28fd7.jpg",
     "static/media/gilberto.jpg": "/static/media/gilberto.da564402.jpg",
     "static/media/jobim.jpg": "/static/media/jobim.44155e05.jpg",
     "static/media/jobs.jpg": "/static/media/jobs.da21be4f.jpg",
     "static/media/lalaland.jpg": "/static/media/lalaland.feaff9f4.jpg",
-    "static/media/logo.png": "/static/media/logo.80b1edde.png",
     "static/media/office.jpeg": "/static/media/office.2f430803.jpeg",
     "static/media/pikachu.jpg": "/static/media/pikachu.cfd4cd42.jpg",
     "static/media/planewing.jpg": "/static/media/planewing.5bdfe6f5.jpg",
@@ -33,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.ce89729d.js",
     "static/css/2.8d3f7698.chunk.css",
-    "static/js/2.a9f03a13.chunk.js",
-    "static/css/main.5b9ace0d.chunk.css",
-    "static/js/main.9cdd3bd1.chunk.js"
+    "static/js/2.9700b3ed.chunk.js",
+    "static/css/main.e55d5cb0.chunk.css",
+    "static/js/main.ec6f5099.chunk.js"
   ]
 }
