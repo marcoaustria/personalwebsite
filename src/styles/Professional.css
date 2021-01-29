@@ -1,0 +1,11 @@
+#water {
+  /* object-position: center center;
+  object-fit: cover;
+  position: relative; */
+  /* height: 100%; */
+  /* display: block; */
+}
+
+#water img {
+  width: 100%;
+}

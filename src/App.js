@@ -12,9 +12,9 @@ import Typography from "./components/Typography"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Homepage from "./components/Homepage"
-
 import NavbarComp from "./components/NavbarComp";
 import DinosaurGame from "./components/DinosaurGame"
+import Professional from "./components/Professional"
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
               {/* {/* <Route path='/contact' component={Contact} /> */}
               <Route path='/typography' component={Typography} />
               <Route path='/game' component={DinosaurGame} />
+              <Route path='/professional' component={Professional} />
           </Switch>
        </HashRouter>
     </div>

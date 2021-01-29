@@ -3,3 +3,19 @@
   background: linear-gradient(145deg, #ffffff, #e6e6e6);
   box-shadow: 41px 41px 82px #ababab, -41px -41px 82px #ffffff;
 }
+
+#card {
+  width: 95%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 0;
+}
+
+#textCard {
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  width: 95%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 0;
+}

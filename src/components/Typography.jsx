@@ -108,14 +108,14 @@ export const Typography = () => {
   return (
     <>
       {/* <NavbarComp /> */}
-      <h2
+      {/* <h2
         className="mb-3 mt-2 "
         style={{ color: "#7B7484", fontFamily: "Poiret One, cursive" }}
       >
         Typography
-      </h2>
+      </h2> */}
 
-      <div className="row m-2 ">
+      <div className="row m-3 mt-5 ">
         {jumbotrons.map((card) => (
           <div className="col-lg-6" style={{ height: "100%" }}>
             <Jumbotron>

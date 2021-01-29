@@ -60,7 +60,7 @@ export const NavbarComp = () => {
         expand="md"
         bg="light"
         variant="light"
-        id="navbar"
+        id={currentURL == "#/professional" ? "pro-navbar" : "navbar"}
       >
         {/* <Navbar.Brand href="/">
           <img
@@ -89,10 +89,12 @@ export const NavbarComp = () => {
               style={currentURL == "#/" ? { color: "#331391" } : {}}
               onSelect={() => setCurrentURL("#/")}
               eventKey="2"
+              className="tab"
             >
               home
             </Nav.Link>
             <Nav.Link
+              className="tab"
               href="#/typography"
               style={currentURL == "#/typography" ? { color: "#331391" } : {}}
               onSelect={() => setCurrentURL("#/typography")}
@@ -101,6 +103,7 @@ export const NavbarComp = () => {
               typography
             </Nav.Link>
             <Nav.Link
+              className="tab"
               href="#/game"
               style={currentURL == "#/game" ? { color: "#331391" } : {}}
               onSelect={() => setCurrentURL("#/game")}
@@ -109,6 +112,7 @@ export const NavbarComp = () => {
               game
             </Nav.Link>
             <Nav.Link
+              className="tab"
               href="#/professional"
               style={currentURL == "#/professional" ? { color: "#331391" } : {}}
               onSelect={() => setCurrentURL("#/professional")}
