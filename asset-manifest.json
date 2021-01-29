@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f92725d.chunk.css",
-    "main.js": "/static/js/main.6a9dafeb.chunk.js",
-    "main.js.map": "/static/js/main.6a9dafeb.chunk.js.map",
+    "main.css": "/static/css/main.2310c66e.chunk.css",
+    "main.js": "/static/js/main.8d4f2cce.chunk.js",
+    "main.js.map": "/static/js/main.8d4f2cce.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
     "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
-    "static/css/2.b0704b7a.chunk.css": "/static/css/2.b0704b7a.chunk.css",
-    "static/js/2.bae4f7e4.chunk.js": "/static/js/2.bae4f7e4.chunk.js",
-    "static/js/2.bae4f7e4.chunk.js.map": "/static/js/2.bae4f7e4.chunk.js.map",
+    "static/css/2.8d3f7698.chunk.css": "/static/css/2.8d3f7698.chunk.css",
+    "static/js/2.6d06cd3b.chunk.js": "/static/js/2.6d06cd3b.chunk.js",
+    "static/js/2.6d06cd3b.chunk.js.map": "/static/js/2.6d06cd3b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fec2a4a09ec5e2cd86fb90fd194c88c1.js": "/precache-manifest.fec2a4a09ec5e2cd86fb90fd194c88c1.js",
+    "precache-manifest.c4fd1a2c5dc904f9671034159786cb6b.js": "/precache-manifest.c4fd1a2c5dc904f9671034159786cb6b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.b0704b7a.chunk.css.map": "/static/css/2.b0704b7a.chunk.css.map",
-    "static/css/main.4f92725d.chunk.css.map": "/static/css/main.4f92725d.chunk.css.map",
-    "static/js/2.bae4f7e4.chunk.js.LICENSE.txt": "/static/js/2.bae4f7e4.chunk.js.LICENSE.txt",
+    "static/css/2.8d3f7698.chunk.css.map": "/static/css/2.8d3f7698.chunk.css.map",
+    "static/css/main.2310c66e.chunk.css.map": "/static/css/main.2310c66e.chunk.css.map",
+    "static/js/2.6d06cd3b.chunk.js.LICENSE.txt": "/static/js/2.6d06cd3b.chunk.js.LICENSE.txt",
     "static/media/doge.jpg": "/static/media/doge.94d84ca6.jpg",
     "static/media/ferrisbueller.jpg": "/static/media/ferrisbueller.59f28fd7.jpg",
     "static/media/gilberto.jpg": "/static/media/gilberto.da564402.jpg",
@@ -27,13 +27,14 @@
     "static/media/speedracer.jpg": "/static/media/speedracer.c8e29468.jpg",
     "static/media/supra.gif": "/static/media/supra.fd9280e9.gif",
     "static/media/uf.jpg": "/static/media/uf.f691ab1a.jpg",
+    "static/media/water.jpg": "/static/media/water.39e6acce.jpg",
     "static/media/wonderfullife.jpg": "/static/media/wonderfullife.0711e7ba.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ce89729d.js",
-    "static/css/2.b0704b7a.chunk.css",
-    "static/js/2.bae4f7e4.chunk.js",
-    "static/css/main.4f92725d.chunk.css",
-    "static/js/main.6a9dafeb.chunk.js"
+    "static/css/2.8d3f7698.chunk.css",
+    "static/js/2.6d06cd3b.chunk.js",
+    "static/css/main.2310c66e.chunk.css",
+    "static/js/main.8d4f2cce.chunk.js"
   ]
 }
