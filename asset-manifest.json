@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.2310c66e.chunk.css",
-    "main.js": "/static/js/main.8d4f2cce.chunk.js",
-    "main.js.map": "/static/js/main.8d4f2cce.chunk.js.map",
+    "main.css": "/static/css/main.da132ac6.chunk.css",
+    "main.js": "/static/js/main.1320d974.chunk.js",
+    "main.js.map": "/static/js/main.1320d974.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
     "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
     "static/css/2.8d3f7698.chunk.css": "/static/css/2.8d3f7698.chunk.css",
-    "static/js/2.6d06cd3b.chunk.js": "/static/js/2.6d06cd3b.chunk.js",
-    "static/js/2.6d06cd3b.chunk.js.map": "/static/js/2.6d06cd3b.chunk.js.map",
+    "static/js/2.f59719df.chunk.js": "/static/js/2.f59719df.chunk.js",
+    "static/js/2.f59719df.chunk.js.map": "/static/js/2.f59719df.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c4fd1a2c5dc904f9671034159786cb6b.js": "/precache-manifest.c4fd1a2c5dc904f9671034159786cb6b.js",
+    "precache-manifest.f006270169d3292ff59f60102617e68b.js": "/precache-manifest.f006270169d3292ff59f60102617e68b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8d3f7698.chunk.css.map": "/static/css/2.8d3f7698.chunk.css.map",
-    "static/css/main.2310c66e.chunk.css.map": "/static/css/main.2310c66e.chunk.css.map",
-    "static/js/2.6d06cd3b.chunk.js.LICENSE.txt": "/static/js/2.6d06cd3b.chunk.js.LICENSE.txt",
+    "static/css/main.da132ac6.chunk.css.map": "/static/css/main.da132ac6.chunk.css.map",
+    "static/js/2.f59719df.chunk.js.LICENSE.txt": "/static/js/2.f59719df.chunk.js.LICENSE.txt",
+    "static/media/church.jpg": "/static/media/church.57906184.jpg",
     "static/media/doge.jpg": "/static/media/doge.94d84ca6.jpg",
     "static/media/ferrisbueller.jpg": "/static/media/ferrisbueller.59f28fd7.jpg",
     "static/media/gilberto.jpg": "/static/media/gilberto.da564402.jpg",
     "static/media/jobim.jpg": "/static/media/jobim.44155e05.jpg",
     "static/media/jobs.jpg": "/static/media/jobs.da21be4f.jpg",
     "static/media/lalaland.jpg": "/static/media/lalaland.feaff9f4.jpg",
+    "static/media/moon.jpg": "/static/media/moon.d56283b7.jpg",
     "static/media/office.jpeg": "/static/media/office.2f430803.jpeg",
     "static/media/pikachu.jpg": "/static/media/pikachu.cfd4cd42.jpg",
     "static/media/planewing.jpg": "/static/media/planewing.5bdfe6f5.jpg",
@@ -28,13 +30,14 @@
     "static/media/supra.gif": "/static/media/supra.fd9280e9.gif",
     "static/media/uf.jpg": "/static/media/uf.f691ab1a.jpg",
     "static/media/water.jpg": "/static/media/water.39e6acce.jpg",
+    "static/media/wave.jpg": "/static/media/wave.93c61144.jpg",
     "static/media/wonderfullife.jpg": "/static/media/wonderfullife.0711e7ba.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ce89729d.js",
     "static/css/2.8d3f7698.chunk.css",
-    "static/js/2.6d06cd3b.chunk.js",
-    "static/css/main.2310c66e.chunk.css",
-    "static/js/main.8d4f2cce.chunk.js"
+    "static/js/2.f59719df.chunk.js",
+    "static/css/main.da132ac6.chunk.css",
+    "static/js/main.1320d974.chunk.js"
   ]
 }
