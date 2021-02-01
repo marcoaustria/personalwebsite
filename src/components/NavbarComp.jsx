@@ -58,7 +58,6 @@ export const NavbarComp = () => {
       <Navbar
         collapseOnSelect
         expand="md"
-        bg="light"
         variant="light"
         id={currentURL == "#/professional" ? "pro-navbar" : "navbar"}
       >

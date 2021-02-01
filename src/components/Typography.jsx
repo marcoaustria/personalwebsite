@@ -43,7 +43,7 @@ export const Typography = () => {
         textAlign: "start",
         marginBottom: 0,
       },
-      text: "tchau!",
+      text: "tchau tchau!",
     },
     {
       style: {
@@ -92,6 +92,14 @@ export const Typography = () => {
         marginBottom: 0,
       },
       text: "café con Dios",
+    },
+    {
+      style: {
+        fontFamily: "EB Garamond, serif",
+        textAlign: "start",
+        marginBottom: 0,
+      },
+      text: "time will tell",
     },
   ];
 

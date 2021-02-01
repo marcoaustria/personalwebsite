@@ -1,4 +1,4 @@
-#water {
+.container2 {
   /* object-position: center center;
   object-fit: cover;
   position: relative; */
@@ -8,4 +8,17 @@
 
 #water img {
   width: 100%;
+}
+
+#column {
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  width: 100%;
+}
+
+.images-container {
+  padding: 0;
 }

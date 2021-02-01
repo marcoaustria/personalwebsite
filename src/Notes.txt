@@ -1,3 +1,3 @@
 
-add shadows to cards
 add icons
+animation on scroll/on hover
