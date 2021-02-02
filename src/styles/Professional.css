@@ -1,24 +1,73 @@
-.container2 {
-  /* object-position: center center;
-  object-fit: cover;
-  position: relative; */
-  /* height: 100%; */
-  /* display: block; */
-}
-
 #water img {
-  width: 100%;
-}
-
-#column {
-  padding: 0;
-  margin: 0;
-}
-
-.row {
   width: 100%;
 }
 
 .images-container {
   padding: 0;
+}
+
+h1 {
+  color: white;
+}
+
+.psalm23-text {
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  /* transform: translate(-50%, -50%); */
+  color: white;
+  /* width: 75%; */
+  font-family: "Crimson Text", serif;
+  font-size: 35px;
+}
+.wave-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 75%;
+  font-family: "Crimson Text", serif;
+  font-size: 35px;
+}
+
+.inner:hover {
+  opacity: 1;
+}
+.inner {
+  opacity: 0.9;
+  width: 100%;
+}
+a {
+  /* opacity: 0; */
+  /* background: rgba(0, 0, 0, 0.5); */
+}
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #616161;
+}
+
+.footer a {
+  color: whitesmoke;
+  font-family: "Calibre Regular", sans-serif;
+  letter-spacing: 0.025em;
+  line-height: 1.5;
+  font-size: 13.6px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-align: start;
+  padding-left: 0;
+}
+
+.footer-section {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 0.65em;
+  color: white;
+  line-height: 1.5;
+  font-family: "Calibre Regular", sans-serif;
+  font-weight: 400;
+  margin-bottom: 5px;
+  text-align: start;
 }

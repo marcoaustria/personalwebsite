@@ -99,7 +99,7 @@ export const Typography = () => {
         textAlign: "start",
         marginBottom: 0,
       },
-      text: "time will tell",
+      text: "time will tell...",
     },
   ];
 
